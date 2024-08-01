@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+}
+h5,h2{
+    font-family: "Oswald", sans-serif;  
+    font-weight: 600;
+}
+
+p, li { 
+  font-family: "Playfair Display", serif;
+  font-weight: 550;
+}
+header.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+}
+
+header.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+.modal-body p{
+    color: rgb(55, 0, 255);
+}
+
+h5 a{
+    text-decoration: none;
+    color: red;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #343a40;
+}
+
+body{
+    animation: colorChange 3s infinite;
+  }
+  
+  @keyframes colorChange {
+    40% {
+        background-color: #FF0000;
+    }
+  
+    50% {
+        background-color: #FFBF00;
+    }
+  
+    70% {
+        background-color: #DFFF00;
+    }
+  
+    100% {
+        background-color: #DE3163;
+    }
+  
+    100% {
+        background-color: #09f329;
+    }
+  }
+  
+
+  
+.card{
+    animation: colorChange 3s infinite;
+  }
+  
+  @keyframes colorChange {
+    40% {
+        background-color: #f80808c2;
+    }
+  
+    50% {
+        background-color: #840af7;
+    }
+  
+    70% {
+        background-color: #ceec0a;
+    }
+  
+    100% {
+        background-color: #e20946;
+    }
+  
+    100% {
+        background-color: #6cf87f;
+    }
+  }
+  
+  
